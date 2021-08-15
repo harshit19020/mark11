@@ -1,0 +1,76 @@
+body{
+    /* background: url(a1.jpg); */
+    background-size: 250vh;
+    background-image: url(a1.jpg);
+}
+
+h1{
+    text-align: center;
+    color: white;
+}
+
+.text{
+    color: white;
+
+    font-size: larger;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.a{
+    color: white;
+}
+
+.b{
+    color: white;
+}
+
+.container{
+    margin: auto;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    /* color: red; */
+}
+
+#date-of-birth{
+    border-radius: 5px;
+    border: none;
+    background-color: silver;
+    padding: 10px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+#lucky-number{
+    margin-top: 15px;
+    margin-bottom: 25px;
+    border-radius: 5px;
+    border: none;
+    background-color: silver;
+    padding: 10px;
+}
+
+#check-btn{
+    margin: auto;
+    margin-top: 40px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: tomato;
+    color: black;
+    border: none;
+    padding: 10px;
+    transition-duration: 0.5s;
+}
+
+#output{
+    font-size: larger;
+    text-align: center;
+    color: white;
+    margin-top: 40px;
+}
+
+#check-btn:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+  }
